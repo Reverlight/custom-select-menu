@@ -1,5 +1,10 @@
+# Preview
+
+![Custom-select-menu](https://github.com/Reverlight/custom-select-menu/blob/master/preview.png?raw=true)
+
 # Custom-select-menu
 Custom select menu built on native js.
+
 
 # Problem:
 
