@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
     });
 
 
-    console.log(optionValues);
+
 
     const customSelect = document.createElement('DIV');
     const optionSelected = document.createElement('DIV');
@@ -48,18 +48,17 @@ window.addEventListener('load', () => {
         optionSelected.innerText = currentOption.innerText;
         optionItems.classList.toggle('active');
 
-
         clearActiveOptions();
         currentOption.classList.add('active');
-        // console.log(e.target)
+
     })
 
 
     function clearActiveOptions() {
         let customOptions = document.querySelectorAll('#option-items div')
-        console.log(customOptions)
+
         customOptions.forEach((option) => {
-            console.log(option)
+
             option.classList.remove('active');
         })
 
@@ -68,7 +67,7 @@ window.addEventListener('load', () => {
 
 
 
-    // optionSelected.appendChild(firstOption);
+
 
 
 })
