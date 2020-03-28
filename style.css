@@ -13,7 +13,7 @@ body {
 }
 
 #custom-select {
-    width: 500px;
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -32,4 +32,20 @@ body {
 
 #custom-select #option-selected {
     padding: 10px;
+}
+
+#custom-select #option-items {
+    display: none;
+}
+
+#custom-select #option-items.active{
+    display: block;
+}
+
+#custom-select #option-items div.active {
+    background-color: #156EC7;
+}
+
+#custom-select #option-items div:hover {
+    background-color: #156EC7;
 }
