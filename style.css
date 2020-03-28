@@ -12,3 +12,24 @@ body {
     text-align: center;
 }
 
+#custom-select {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#custom-select div {
+    border-bottom: 1px solid #999;
+    background-color: dodgerblue;
+    color: white;
+    /* padding: 10px; */
+}
+
+
+
+#custom-select #option-items div{
+    padding: 10px;
+}
+
+#custom-select #option-selected {
+    padding: 10px;
+}
